@@ -1,4 +1,4 @@
-const array = [2,1,5,3,4];
+const array = [3,4,1,2];
 
 
 
@@ -17,6 +17,7 @@ function minimumBribes(q) {
         }
         else {
             if (min > q[i]) {
+                console.log(min + " : " + q[i])
                 min = q[i];
             }
             else if (q[i] != min) {
@@ -30,3 +31,6 @@ function minimumBribes(q) {
 
 
 console.log(minimumBribes(array));
+
+
+
